@@ -9,7 +9,7 @@ class Engineer extends Employee {
         this.github = github;
     }
     //only need to create a function for the new property added
-    getOfficeNumber(){
+    getGithub(){
         return this.github;
     }
 }
