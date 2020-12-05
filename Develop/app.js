@@ -51,7 +51,7 @@ function getManager() {
         ]).then(answers => {
             
             //creating a new instance based off of the users responses and adding it to the array
-            const manager = new Manager(answers.managerName, answers.managerID, answers.managerEmail, answers.managerOffice);
+            const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOffice);
             team.push(manager);
             addEmployee();
         })
